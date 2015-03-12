@@ -26,9 +26,6 @@
  * Filter: mp_stacks_iframe_css_location
  */
 function mp_stacks_iframe_enqueue_scripts(){
-			
-	//Enqueue iframe CSS
-	wp_enqueue_style( 'mp_stacks_iframe_css', plugins_url( 'css/iframe.css', dirname( __FILE__ ) ) );
 	
 	//Enqueue iframe ajax js
 	wp_enqueue_script( 'mp_stacks_iframe_js', plugins_url( 'js/iframe.js', dirname( __FILE__ ) ), array( 'jquery', 'mp_stacks_front_end_js' ) );
