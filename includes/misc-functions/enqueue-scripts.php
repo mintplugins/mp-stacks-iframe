@@ -27,12 +27,5 @@
  */
 function mp_stacks_iframe_enqueue_scripts(){
 	
-	//Enqueue iframe ajax js
-	wp_enqueue_script( 'mp_stacks_iframe_js', plugins_url( 'js/iframe.js', dirname( __FILE__ ) ), array( 'jquery', 'mp_stacks_front_end_js' ) );
-
 }
- 
-/**
- * Enqueue css face for iframe
- */
-add_action( 'wp_enqueue_scripts', 'mp_stacks_iframe_enqueue_scripts' );
+//add_action( 'wp_enqueue_scripts', 'mp_stacks_iframe_enqueue_scripts' );
