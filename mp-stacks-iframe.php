@@ -3,7 +3,7 @@
 Plugin Name: MP Stacks + iFrame
 Plugin URI: http://mintplugins.com
 Description: Add-On Plugin for MP Stacks which allows you to display almost any URL in a Brick.
-Version: 1.0.0.2
+Version: 1.0.0.3
 Author: Mint Plugins
 Author URI: http://mintplugins.com
 Text Domain: mp_stacks_iframe
@@ -34,7 +34,7 @@ License: GPL2
 */
 // Plugin version
 if( !defined( 'MP_STACKS_IFRAME_VERSION' ) )
-	define( 'MP_STACKS_IFRAME_VERSION', '1.0.0.2' );
+	define( 'MP_STACKS_IFRAME_VERSION', '1.0.0.3' );
 
 // Plugin Folder URL
 if( !defined( 'MP_STACKS_IFRAME_PLUGIN_URL' ) )
